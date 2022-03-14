@@ -1,0 +1,29 @@
+su: ignoring --preserve-environment, it's mutually exclusive with --login
+
+Listening on http://127.0.0.1:35819
+
+
+
+processing file: index.Rmd
+output file: /tmp/Rtmp5VQx00/filef96b72a2ff/index.knit.md
+
+
+Output created: /tmp/Rtmp5VQx00/filef96b72a2ff/index.html
+
+
+
+processing file: index.Rmd
+output file: /tmp/Rtmp5VQx00/filef93984829e/index.knit.md
+
+
+Output created: /tmp/Rtmp5VQx00/filef93984829e/index.html
+
+
+
+processing file: index.Rmd
+output file: /tmp/Rtmp5VQx00/filef93ecdb467/index.knit.md
+
+
+Output created: /tmp/Rtmp5VQx00/filef93ecdb467/index.html
+Terminated
+

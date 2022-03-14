@@ -1,0 +1,11 @@
+{
+	"name": "Shinyv4.1.2",
+	"short_name": "Shiny",
+	"version": "4.1.2",
+	"description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
+	"short_description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
+	"catalogue_url": "",
+	"application_url": "https://shiny.rstudio.com/",
+	"tags": ["Data Visualization"],
+	"application_documentation_url": "https://shiny.rstudio.com/"
+}
