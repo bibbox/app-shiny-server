@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  bibbox-default-network:
+    external: true
+services:
+  bibbox-shiny:
+    container_name: bibbox-shiny
+    image: rocker/shiny:4.1.2
+    ports:
+      - "3838:3838"    
+    networks:
+    - bibbox-default-network
+    restart: unless-stopped
+    volumes:
+    - ./data/shinyapps/:/srv/shiny-server/
+    - ./data/shinylog/:/var/log/shiny-server/
+
+

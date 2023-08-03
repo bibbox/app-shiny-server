@@ -1,0 +1,25 @@
+version: '3'
+
+networks:
+  bibbox-default-network:
+    external: true
+services:
+  §§INSTANCE-shiny:
+    container_name: §§INSTANCE-shiny
+    image: rocker/shiny:4.1.2
+    ports:
+      - "3838:3838"    
+    networks:
+    - bibbox-default-network
+    restart: unless-stopped
+    volumes:
+    - ./data/shinyapps/:/srv/shiny-server/
+    - ./data/shinylog/:/var/log/shiny-server/
+    proxy:
+     TYPE: PRIMARY
+     URLPREFIX: §§INSTANCE
+     TEMPLATE: default
+     DISPLAYNAME: 'Shiny'  
+
+
+
