@@ -6,7 +6,7 @@ networks:
 services:
   §§INSTANCE-shiny:
     container_name: §§INSTANCE-shiny
-    image: rocker/shiny:4.1.2
+    image: rocker/shiny:4.3.1
     ports:
       - "3838:3838"    
     networks:
