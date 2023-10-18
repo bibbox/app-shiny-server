@@ -1,7 +1,7 @@
 {
 	"name": "Shiny",
 	"short_name": "Shiny",
-	"version": "4.3.1",
+	"version": "v4.3.1",
 	"description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
 	"short_description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
 	"catalogue_url": "",
